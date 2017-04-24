@@ -3,10 +3,11 @@
 }
 .mrg{
 	margin-left: 15px;
-	background-color: #F9F5F5;
+	background-color: #F9FAF4;
 }
 .l5txt1{
 	padding-right: 20px;
+	font-weight: bold;
 }
 .l5txt2{
 	padding-right: 15px;
@@ -22,4 +23,5 @@
 }
 .space{
 	padding-top: 15px;
+	font-weight: bold;
 }
