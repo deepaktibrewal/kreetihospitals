@@ -13,6 +13,13 @@
 	float: right;
 	margin-left: -110px;
 }
+@media only screen and (max-width: 990px) {
+    .l5txt1 {
+			padding-right: 50px;
+			font-weight: bold;
+			font-size: 16px;
+}
+}
 .l5txt2{
 	padding-right: 15px;
 	font-weight: bold;

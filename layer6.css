@@ -2,42 +2,74 @@
     background-color: #0098B0;
     min-height: 100px;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 50px
    }
-.copyright {
-    color: #fff;
-    padding-left: 30px;
-    margin-top: 40px;
-    font-size: 2.4vmin;
-    float: left;
-    text-align: center;
+@media (min-width: 768px){
+.footermenu {
+    width: 50%;
+}
+.pullright {
+    float: right;
+}
+.alignRight {
+    text-align: right;
+}
+.padtop{
+  padding-top: 40px;
 }
 .l6txt
 {
   color: #fff;
-  margin-top: 30px;
-  font-size: 2.6vmin;
+  font-size: 2.4vmin;
   text-align: center;
+  padding-left:20px;
+  padding-right: 16px;
 }
-.small{
-	float: right;
+.copyright {
+    color: #fff;
+    padding-left: 30px;
+    margin-top: 40px;
+    font-size: 16px;
+    float: left;
 }
-.space6{
-  margin-left: -20px;
+.rights{
+  color: #fff;
+  padding-left: 3px;
+  margin-top: 40px;
+  font-size: 16px;
+  float: left;
 }
-@media only screen and (max-width: 600px) {
-    .fnt1 {
-      float: none;
-      font-size:12px;
-      margin-top: -10px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
+.l6txt,.copyright,.rights{
+	font-size: 14px;
+  padding-left: 6px;
+  padding-right: 5px
+}
+}
+@media (max-width: 760px) {
+  a {
+    color: #dff0d8;
+    text-decoration: none;
+    padding-left: 5px;
+}
+    .t1 {
+      color: #fff;
+      float: left;
+      font-size:14px;
       text-align: center;
+      width: 100%;
 }
-@media only screen and (max-width: 600px) {
-    .fnt2 {
+    .t2 {
+      color: #fff;
       float: none;
-      font-size:12px;
-      line-height:100%;
+      font-size:14px;
       text-align: center;
-      margin-left: -16px;
-      margin-top: -0.5px;
+      margin-top: 10px;
+      width:100%;
+      padding-bottom: 15px;
+}
+.t3{
+  margin-top: -10px;
+}
 }

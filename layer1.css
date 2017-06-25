@@ -3,6 +3,7 @@
 			height:60px;
 			border:none;
 		}
+	
 .p1{
 			padding-top: 14px;
 			margin-right: 5px;
@@ -20,7 +21,4 @@
       font-size:13px !important;
       line-height:125% !important;
 			font-family: arial;
-}
-.blck{
-	color: black;
 }
