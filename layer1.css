@@ -2,11 +2,11 @@
 .header{
 			height:60px;
 			border:none;
+			margin: 0px;
 		}
-	
+
 .p1{
-			padding-top: 14px;
-			margin-right: 5px;
+			padding-top: 15px;
 			color: #00CED1;
 			text-align: right;
 			font-family: arial;
@@ -14,11 +14,9 @@
 		}
 .clr{
 	background-color: #F3F3F3;
-
 }
 @media only screen and (max-width: 600px) {
-    .fnt {
-      font-size:13px !important;
-      line-height:125% !important;
-			font-family: arial;
+    .p1 {
+      font-size:1em;
+			text-align: center;
 }
