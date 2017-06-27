@@ -4,6 +4,7 @@
 		}
 .l4img{
 	margin-top: 40px;
+	vertical-align: middle;
 }
 .l4text2{
 	padding-left: 20px;
@@ -21,4 +22,5 @@
 @media only screen and (max-width: 600px) {
     .l4text2 {
       padding-bottom: 0px;
+}
 }
