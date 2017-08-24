@@ -1,44 +1,73 @@
-.l5img{
+.healthimg{
 	width: 100%;
-	margin-bottom: 15px;
+	padding-left: 14px;
 }
-.mrg{
+.healthbgcolor{
 	background-color: #F9FAF4;
 }
-.l5txt1{
-	font-weight: bold;
+.healthtext{
+	color: black;
 	font-size: 1.1em;
-	float: right;
-	margin-bottom: 60px;
+	padding-bottom: 55px;
+	padding-right: 20px;
 }
-.l5txt2{
-	padding-right: 15px;
+.WhyUssection{
+	border-left: 2px dotted #00CED1;
+}
+.healthheading{
+	padding-bottom: 5px;
+	padding-top: 11px;
+	margin-left: 14px;
+}
+.WhyUsheadings{
+	padding-top: 15px;
 	font-weight: bold;
+	margin-bottom: 5px;
 }
-.l5bdr{
-	border-left: 3px dotted #00CED1;
-	padding-bottom: 7px;
-}
-@media only screen and (max-width: 600px) {
-    .l5bdr {
-			border: none;
-}
-}
-.pad{
-	margin-left: 15px;
-	padding-bottom: 15px;
-}
-.padup{
-	margin-top: 5px;
-}
-.space{
-	padding-top: 20px;
-	font-weight: bold;
-}
-.st5{
-	font-size: 1.1em;
-	font-weight: 500;
+.WhyUstexts{
 	letter-spacing: .5px;
-	text-align: left;
-	margin-right: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .WhyUssection {
+			border: none;
+			padding-bottom: 0px;
+		}
+		.WhyUsmargin{
+			margin-top: 25px;
+			padding-top: 10px;
+		}
+		.h3, h3 {
+			font-size: 20px;
+			color:black;
+		}
+		.healthtext{
+			padding-top: 15px;
+			padding-bottom: 35px;
+			padding-left: 14px;
+		}
+		.h4, h4 {
+			font-size: 16px;
+			color:black;
+		}
+		.healthimg{
+			padding-right: 14px;
+		}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.h3, h3 {
+		font-size: 20px;
+		color:black;
+	}
+	.healthtext{
+		font-size: 13px;
+		margin-bottom: 16px;
+		padding-bottom: 40px
+	}
+	.h4, h4 {
+		font-size: 14px;
+		color:black;
+	}
+	.WhyUstexts{
+		font-size: 13px;
+	}
 }

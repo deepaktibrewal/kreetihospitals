@@ -1,38 +1,53 @@
 .collapse .nav li a:link{
 	color: black;
 }
-.collapse .nav li a:active{
-	color: black;
-}
 .collapse .nav li a:visited{
 	color: black;
+	font-weight: bold;
 }
 .collapse .nav li a:hover{
 	color: black;
+	font-weight: bold;
+}
+.collapse .nav li a:active{
+	color: black;
+}
+.collapse .nav li a:focus{
+	color: black;
+	font-weight: bold;
 }
 .navbar-default .navbar-toggle{
 	border: none;
 }
-.img1{
-	margin-top: 15px;
-	margin-left: 5px;
-	margin-bottom: 15px;
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.imgredplus{
+	margin-top: 20px;
 	width: 110px;
-	height: 35px;
 }
-@media only screen and (max-width: 600px) {
-    .img1 {
-      margin-left: 20px;
+
+@media only screen and (max-width: 767px) {
+    .imgredplus {
+      margin-left:38px;
+			width: 75px;
+			height: 26px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-top: none;
+	border-bottom: 4px solid #ddd;
 }
 }
-.bgcolr{
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: white;
+}
+.navbar-default{
 	background-color: white;
 	border-color: white;
 }
 .navs{
 	text-align: center;
-	/*font-weight: bold;*/
-	font-size: 20px;
+	font-size: 14px;
 	font-family: arial;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -40,6 +55,19 @@
 .navbar{
 	margin-bottom: 0;
 }
-.blck{
+.textblack{
 	color: black;
+	border-right: 1px solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.nav>li>a {
+		padding: 10px 10px;
+	}
+	.imgredplus{
+		margin-top: 15px;
+		width: 95px;
+		height: 30px;
+	}
 }
